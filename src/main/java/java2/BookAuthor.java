@@ -6,7 +6,7 @@ public class BookAuthor {
         private String FirstName;
         private String LastName;
 
-        public Author (String FirstName, String LastName){ //конструктор
+        public Author (String FirstName, String LastName){
             this.FirstName = FirstName;
             this.LastName = LastName;
         }
@@ -68,7 +68,6 @@ public class BookAuthor {
     public static class BookDemo{
 
         public static void main(String[] args) {
-            //c 72 строки по 86 можно закоментить
             Author author  = new Author ("Ti", "Huan");
             System.out.println(author);
             //Test Getters

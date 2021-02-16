@@ -49,7 +49,6 @@ public class Clock {
         this.minutes= this.minutes% 60;
         this.hours = this.hours%24;
         //System.out.println(this.hours+":"+this.minutes+":"+this.seconds);
-
     }
 
     public static Clock addClock(Clock t1, Clock t2) {
@@ -93,15 +92,6 @@ public class Clock {
         difference.hours = t1.hours - t2.hours;
         difference.minutes = t1.minutes - t2.minutes;
         difference.seconds = t1.seconds -  t2.seconds;
-
-       /* if (difference.seconds >= 60) {
-            difference.seconds -= 60;
-            difference.minutes += 1;
-        }
-        if (difference.minutes >= 60) {
-            difference.minutes -= 60;
-            difference.hours += 1;
-        }*/
         return difference;
     }
 
@@ -127,5 +117,4 @@ public class Clock {
         System.out.println(str);
         return str;
     }
-
 }

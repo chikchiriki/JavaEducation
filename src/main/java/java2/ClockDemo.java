@@ -33,6 +33,5 @@ public class ClockDemo {
         }
         Clock.addClock(firstClock, secondClock).toFormat();
         Clock.subtractClock(firstClock, secondClock).toFormat();
-
     }
 }
